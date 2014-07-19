@@ -3,7 +3,7 @@ php-hbase-dao
 
 * Design Goal
   * A simple and flexible Dao-Layer for HBase
-  * Mapping of object properties to HBase mutations and vice versa have to be done manually
+  * Manual mapping of entity properties to HBase mutations and vice versa
 * Features
   * Create, Drop for Tables
   * Save, Remove, Find (single or range), Scan (`TScan`) for Entities
