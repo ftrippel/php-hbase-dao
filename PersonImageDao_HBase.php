@@ -2,7 +2,7 @@
 
 /**
  *
- * @author ftrippel
+ * @author https://github.com/ftrippel
  *
  */
 class PersonImageDao_HBase extends Dao_HBase {
