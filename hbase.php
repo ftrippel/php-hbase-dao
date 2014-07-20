@@ -6,6 +6,16 @@
  *
  */
 
+class AssertionFailedException extends Exception {}
+
+function assertNotNull ($a) {
+	if(!isset($a)) throw new AssertionFailedException();
+}
+
+function assertThat ($a) {
+	if($a !== true) throw new AssertionFailedException();
+}
+
 use Thrift\Protocol\TBinaryProtocol;  
 use Thrift\Transport\TSocket;  
 use Thrift\Transport\TSocketPool;  
